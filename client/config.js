@@ -1,12 +1,9 @@
 /**
  * 小程序配置文件
  */
-//生产  https://634912187.ming-wedding.xyz
-//开发  https://4fhfbwlb.qcloud.la
-
 
 // 此处主机域名修改成腾讯云解决方案分配的域名
-var host = 'https://634912187.ming-wedding.xyz';
+var host = 'https://4fhfbwlb.qcloud.la';
 
 var config = {
 
@@ -24,11 +21,7 @@ var config = {
         tunnelUrl: `${host}/weapp/tunnel`,
 
         // 上传图片接口
-        uploadUrl: `${host}/weapp/upload`,
-
-        //demo
-        infomation: `${host}/weapp/demo`,
-        
+        uploadUrl: `${host}/weapp/upload`
     }
 };
 

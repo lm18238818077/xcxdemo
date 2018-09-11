@@ -16,29 +16,21 @@ const CONF = {
      * 若使用了腾讯云微信小程序解决方案
      * 开发环境下，MySQL 的初始密码为您的微信小程序 appid
      */
-
-    //开发 pass wx30b9a490310edd9e
-    //生产 pass uXHXFB2a
     mysql: {
         host: 'localhost',
         port: 3306,
         user: 'root',
         db: 'cAuth',
-        pass: 'uXHXFB2a',
+        pass: 'wx30b9a490310edd9e',
         char: 'utf8mb4'
     },
 
     cos: {
         /**
-         * 区域
-         * 华北：cn-north
-         * 华东：cn-east
-         * 华南：cn-south
-         * 西南：cn-southwest
-         * 新加坡：sg
-         * @see https://www.qcloud.com/document/product/436/6224
+         * 地区简称
+         * @查看 https://cloud.tencent.com/document/product/436/6224
          */
-        region: 'cn-south',
+        region: 'ap-guangzhou',
         // Bucket 名称
         fileBucket: 'qcloudtest',
         // 文件夹

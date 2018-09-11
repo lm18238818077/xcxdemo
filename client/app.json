@@ -1,55 +1,14 @@
 {
-  "pages": [
-    "pages/index/index",    
-    "pages/my/music/music",    
-    "pages/my/my",
-    "pages/bless/bless",    
-    "pages/addCgi/addCgi",
-    "pages/splash/splash",
-    "pages/map/map",
-    "pages/home/gridview/gridview",
-    "pages/home/home",
-    "pages/my/aboutus/aboutus",
-    "pages/bless/blessDetail/blessDetail",
-    "pages/my/aboutProject/aboutProject"
+  "pages":[
+    "pages/demo/demo",
+    "pages/index/index",
+    "pages/addCgi/addCgi"
   ],
-  "window": {
-    "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#CD96CD",
-    "navigationBarTextStyle": "white",
-    "enablePullDownRefresh": false
-  },
-  "tabBar": {
-    "list": [
-      {
-        "pagePath": "pages/home/home",
-        "iconPath": "image/tab/ic_home_normal.png",
-        "selectedIconPath": "image/tab/ic_home_select.png",
-        "text": "首页"
-      },
-      {
-        "pagePath": "pages/map/map",
-        "iconPath": "image/tab/ic_nav_normal.png",
-        "selectedIconPath": "image/tab/ic_nav_select.png",
-        "text": "导航"
-      },
-      {
-        "pagePath": "pages/bless/bless",
-        "iconPath": "image/tab/ic_heart_normal.png",
-        "selectedIconPath": "image/tab/ic_heart_select.png",
-        "text": "祝福"
-      },
-      {
-        "pagePath": "pages/my/my",
-        "iconPath": "image/tab/meme-normal@2x.png",
-        "selectedIconPath": "image/tab/me-selected@2x.png",
-        "text": "我的"
-      }
-    ],
-    "position": "bottom",
-    "selectedColor": "#CD96CD",
-    "backgroundColor": "#fff",
-    "color": "#5f5f5f"
-  },
-  "enablePullDownRefresh": false
+  "window":{
+    "backgroundColor":"#F6F6F6",
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "Wafer Quick Start",
+    "navigationBarTextStyle":"black"
+  }
 }

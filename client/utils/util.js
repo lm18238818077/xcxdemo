@@ -6,18 +6,12 @@ const formatTime = date => {
   const minute = date.getMinutes()
   const second = date.getSeconds()
 
-  return [year, month, day].map(formatNumber).join('-') + ' ' + [hour, minute, second].map(formatNumber).join(':')
+  return [year, month, day].map(formatNumber).join('/') + ' ' + [hour, minute, second].map(formatNumber).join(':')
 }
 
 const formatNumber = n => {
   n = n.toString()
   return n[1] ? n : '0' + n
-}
-
-const formatZone = date =>{
-  var d = new Date(date);
-  var times = d.getFullYear() + '-' + (d.getMonth() + 1) + '-' + d.getDate() + ' ' + d.getHours() + ':' + d.getMinutes() + ':' + d.getSeconds(); 
-  return times;
 }
 
 
@@ -45,4 +39,4 @@ var showModel = (title, content) => {
     })
 }
 
-module.exports = { formatTime, showBusy, showSuccess, showModel, formatZone}
+module.exports = { formatTime, showBusy, showSuccess, showModel }

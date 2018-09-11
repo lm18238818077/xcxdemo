@@ -1,0 +1,5 @@
+<!--pages/demo/demo.wxml-->
+<text>pages/demo/demo.wxml</text>
+
+<button bindtap="test">{{word}}</button>
+<view wx:for="{{res}}" wx:key="{{index}}">{{item.content}}</view>

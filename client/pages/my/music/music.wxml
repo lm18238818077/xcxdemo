@@ -1,8 +1,0 @@
-<!--pages/my/music/music.wxml-->
-<view>
-<radio-group class="radio-group" bindchange="radioChange" data-id="{{item.id}}">
-  <label class="radio" wx:for="{{musicList}}" wx:key="{{index}}" data-index="index">
-    <radio value="{{item.url}}" checked="{{item.checked}}"/>{{item.name}}
-  </label>
-</radio-group>
-</view>

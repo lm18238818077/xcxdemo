@@ -1,16 +1,37 @@
-// pages/my/aboutProject/aboutProject.js
+// pages/demo/demo.js
+var qcloud = require('../../vendor/wafer2-client-sdk/index')
+var config = require('../../config')
+
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-  
+    word:'测试搜索',
+    res:[]
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
+  test:function(){
+    var that = this
+    wx.request({
+      url: `${config.service.host}/weapp/demo`,
+      method:'GET',
+      data:{id:1},
+      success(result) {
+        that.setData({
+          res: result.data.data
+        })
+        console.log(result)
+      },
+      fail(error) {
+        console.log(error)
+      }
+    })
+  },
   onLoad: function (options) {
   
   },
