@@ -1,0 +1,15 @@
+<!--pages/my/aboutus/aboutus.wxml-->
+<view class='view_bg'>
+
+    <view class='text_view_style'>
+
+      <image bindtap="previewImage" class='qr_style' src='http://pdqyvtjnk.bkt.clouddn.com/qr_code.jpg'mode='widthFix'></image>
+
+      <view class='text_style'>微信：liming8077</view>
+
+      <view class='text_style'>QQ邮箱：254017072@qq.com</view>
+      
+    </view>
+
+</view>
+

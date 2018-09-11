@@ -1,0 +1,9 @@
+/* pages/my/music/music.wxss */
+.radio-group{
+  padding:15px 10px;
+  overflow: hidden;
+}
+.radio{
+  display: block;
+  height: 35px;
+}
